@@ -3,7 +3,7 @@
   "description": "A Strapi plugin to display an embedded Pirsch dashboard.",
   "license": "ISC",
   "author": "Fresh Codes <hello@fresh.codes>",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [
     "strapi",
     "pirsch",
