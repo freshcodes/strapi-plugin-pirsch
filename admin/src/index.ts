@@ -1,25 +1,53 @@
-// import { getTranslation } from './utils/getTranslation'
 import { PLUGIN_ID } from './pluginId'
 import { Initializer } from './components/Initializer'
 import { PluginIcon } from './components/PluginIcon'
+import { PERMISSIONS } from './permissions'
 import { StrapiApp } from '@strapi/strapi/admin'
 
 export default {
   register(app: StrapiApp) {
+    // Main plugin menu
     app.addMenuLink({
       to: `plugins/${PLUGIN_ID}`,
       icon: PluginIcon,
       intlLabel: {
         id: `${PLUGIN_ID}.plugin.name`,
-        defaultMessage: PLUGIN_ID,
+        defaultMessage: 'Pirsch Analytics',
       },
+      permissions: PERMISSIONS.dashboard,
       // @ts-expect-error can't make it happy
       Component: async () => {
-        const { App } = await import('./pages/App')
+        const { HomePage } = await import('./pages/HomePage')
 
-        return App
+        return HomePage
       },
     })
+
+    // Add settings link to Strapi settings panel
+    app.addSettingsLink(
+      {
+        id: PLUGIN_ID,
+        intlLabel: {
+          id: `${PLUGIN_ID}.settings.section-label`,
+          defaultMessage: 'Pirsch Analytics',
+        },
+      },
+      {
+        intlLabel: {
+          id: `${PLUGIN_ID}.settings.title`,
+          defaultMessage: 'Configuration',
+        },
+        id: 'settings',
+        to: `${PLUGIN_ID}`,
+        permissions: PERMISSIONS.settings,
+        // @ts-expect-error can't make it happy
+        Component: async () => {
+          const { ProtectedSettingsPage } = await import('./pages/SettingsPage')
+
+          return ProtectedSettingsPage
+        },
+      },
+    )
 
     app.registerPlugin({
       id: PLUGIN_ID,

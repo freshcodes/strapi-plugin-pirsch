@@ -1,0 +1,19 @@
+{
+  "pirsch.plugin.name": "Pirsch Analytics",
+  "pirsch.settings.section-label": "Pirsch Analytics",
+  "pirsch.settings.title": "Configuratie",
+  "pirsch.settings.section.description": "Configureer de integratie van uw Pirsch Analytics dashboard",
+  "pirsch.settings.configuration.title": "Huidige configuratie",
+  "pirsch.settings.configuration.description": "Bekijk uw huidige Pirsch Analytics dashboard configuratie.",
+  "pirsch.settings.current.label": "Huidige Pirsch Dashboard URL",
+  "pirsch.settings.current.empty": "Niet geconfigureerd",
+  "pirsch.settings.update.title": "Configuratie bijwerken",
+  "pirsch.settings.pirschUrl.label": "Nieuwe Pirsch Dashboard URL",
+  "pirsch.settings.pirschUrl.placeholder": "https://uw-dashboard.pirsch.io",
+  "pirsch.settings.pirschUrl.hint": "Voer de volledige URL van uw Pirsch Analytics dashboard in",
+  "pirsch.settings.pirschUrl.error": "Voer een geldige URL in",
+  "pirsch.settings.save": "Configuratie opslaan",
+  "pirsch.notification.success": "Instellingen succesvol opgeslagen",
+  "pirsch.notification.error": "Er is een fout opgetreden bij het opslaan van de instellingen",
+  "pirsch.dashboard.not-configured": "De Pirsch Analytics toegangslink is nog niet geconfigureerd."
+}

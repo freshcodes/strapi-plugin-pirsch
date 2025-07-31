@@ -1,0 +1,19 @@
+{
+  "pirsch.plugin.name": "Pirsch Analytics",
+  "pirsch.settings.section-label": "Pirsch Analytics",
+  "pirsch.settings.title": "Configuración",
+  "pirsch.settings.section.description": "Configure la integración de su panel de Pirsch Analytics",
+  "pirsch.settings.configuration.title": "Configuración actual",
+  "pirsch.settings.configuration.description": "Vea la configuración actual de su panel de Pirsch Analytics.",
+  "pirsch.settings.current.label": "URL del panel de Pirsch actual",
+  "pirsch.settings.current.empty": "No configurado",
+  "pirsch.settings.update.title": "Actualizar configuración",
+  "pirsch.settings.pirschUrl.label": "Nueva URL del panel de Pirsch",
+  "pirsch.settings.pirschUrl.placeholder": "https://su-panel.pirsch.io",
+  "pirsch.settings.pirschUrl.hint": "Ingrese la URL completa de su panel de Pirsch Analytics",
+  "pirsch.settings.pirschUrl.error": "Por favor ingrese una URL válida",
+  "pirsch.settings.save": "Guardar configuración",
+  "pirsch.notification.success": "Configuración guardada exitosamente",
+  "pirsch.notification.error": "Ocurrió un error al guardar la configuración",
+  "pirsch.dashboard.not-configured": "El enlace de acceso a Pirsch Analytics aún no está configurado."
+}

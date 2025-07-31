@@ -1,0 +1,19 @@
+{
+  "pirsch.plugin.name": "Pirsch Analytics",
+  "pirsch.settings.section-label": "Pirsch Analytics",
+  "pirsch.settings.title": "設定",
+  "pirsch.settings.section.description": "Pirsch Analytics ダッシュボードの統合を設定します",
+  "pirsch.settings.configuration.title": "現在の設定",
+  "pirsch.settings.configuration.description": "現在の Pirsch Analytics ダッシュボードの設定を表示します。",
+  "pirsch.settings.current.label": "現在の Pirsch ダッシュボード URL",
+  "pirsch.settings.current.empty": "未設定",
+  "pirsch.settings.update.title": "設定を更新",
+  "pirsch.settings.pirschUrl.label": "新しい Pirsch ダッシュボード URL",
+  "pirsch.settings.pirschUrl.placeholder": "https://your-dashboard.pirsch.io",
+  "pirsch.settings.pirschUrl.hint": "Pirsch Analytics ダッシュボードの完全な URL を入力してください",
+  "pirsch.settings.pirschUrl.error": "有効な URL を入力してください",
+  "pirsch.settings.save": "設定を保存",
+  "pirsch.notification.success": "設定が正常に保存されました",
+  "pirsch.notification.error": "設定の保存中にエラーが発生しました",
+  "pirsch.dashboard.not-configured": "Pirsch Analytics のアクセスリンクはまだ設定されていません。"
+}

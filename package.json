@@ -1,11 +1,14 @@
 {
-  "name": "strapi-plugin-pirsch",
+  "name": "@fresh.codes/strapi-plugin-pirsch",
   "description": "A Strapi plugin to display an embedded Pirsch dashboard.",
   "license": "ISC",
   "author": "Fresh Codes <hello@fresh.codes>",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "keywords": [
-    "strapi"
+    "strapi",
+    "pirsch",
+    "analytics",
+    "plugin"
   ],
   "strapi": {
     "kind": "plugin",
@@ -43,12 +46,6 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --write --ignore-unknown .",
     "prepare": "husky"
-  },
-  "lint-staged": {
-    "*": [
-      "npm run lint:fix",
-      "npm run format"
-    ]
   },
   "dependencies": {
     "@strapi/design-system": "^2.0.0-rc.29",
