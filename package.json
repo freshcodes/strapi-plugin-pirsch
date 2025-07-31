@@ -45,7 +45,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write --ignore-unknown .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "@strapi/design-system": "^2.0.0-rc.29",
