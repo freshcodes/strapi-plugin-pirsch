@@ -12,14 +12,6 @@ npm install strapi-plugin-pirsch
 
 ## Configuration
 
-Add to your plugins.ts
-
-```
-  'pirsch': {
-    enabled: true,
-  },
-```
-
 ### Configure Dashboard URL
 
 1. Navigate to **Settings** → **Pirsch Analytics** in your Strapi admin
