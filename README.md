@@ -18,7 +18,7 @@ npm install strapi-plugin-pirsch
 2. Enter your [Pirsch Access Link](https://docs.pirsch.io/advanced/access#public-access) (e.g., `https://your-dashboard.pirsch.io`)
 3. Click **Save Settings**
 
-Note: There are [additional query params]https://docs.pirsch.io/advanced/embedding#ui-options) you can add to your access link (like `&ui=hide`).
+Note: There are [additional query params](https://docs.pirsch.io/advanced/embedding#ui-options) you can add to your access link (like `&ui=hide`).
 
 ### Content Security Policy (Optional)
 
