@@ -37,6 +37,24 @@ export default [
 ]
 ```
 
+If you're using a custom domain like `stats.example.com` then you'll need to tweak the CSP policy a bit more to allow for the pirsch api calls to work:
+
+```typescript
+export default [
+  {
+    name: 'strapi::security',
+    config: {
+      contentSecurityPolicy: {
+        directives: {
+          'frame-src': ["'self'", 'https://stats.example.com'],
+          'connect-src': ["'self'", 'https://api.pirsch.io'],
+        },
+      },
+    },
+  },
+]
+```
+
 ## Permissions
 
 The plugin registers two permissions that can be managed in **Settings → Roles & Permissions**:
